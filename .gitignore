@@ -1,0 +1,23 @@
+node_modules/
+out/
+release/
+test-results/
+playwright-report/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local reading data and system files
+*.sqlite
+*.sqlite-*
+.DS_Store
+*.log
+coverage/
