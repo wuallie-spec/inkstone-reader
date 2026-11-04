@@ -4,7 +4,11 @@
 
 ## 直接使用（macOS Apple Silicon）
 
-解压 `release/Inkstone-0.1.1-arm64-mac.zip`，打开 `Inkstone.app`，也可以将其拖入“应用程序”。这是个人使用的未公证开发版本；若 macOS 拦截，右键应用选择“打开”，或在系统设置 → 隐私与安全性中确认打开。
+**[下载 Inkstone 0.1.4 · Mac Apple Silicon](https://github.com/wuallie-spec/inkstone-reader/releases/download/v0.1.4/Inkstone-0.1.4-arm64-mac.zip)** · [查看所有版本](https://github.com/wuallie-spec/inkstone-reader/releases)
+
+适用于 M 系列芯片的 Mac，无需安装 Node.js 或自行编译。下载 ZIP 后解压，将 `Inkstone.app` 拖入“应用程序”，然后打开。
+
+这是未提供 Developer ID 签名和 Apple 公证的个人开发版本，首次打开可能受到 macOS 安全提示拦截。Windows 和 Intel Mac 尚未实机验证，本次不提供对应安装包。应用暂不支持自动更新，请从 Releases 手动下载后续版本。
 
 点击“打开文件”或“打开文件夹”，或把 `.md` / `.markdown` 文件拖入窗口。文件夹树保留现有目录结构，最近阅读列表记录已经打开的文件。
 
